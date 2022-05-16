@@ -1,0 +1,20 @@
+.Container {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    width: 20%;
+    font-size: medium;
+    transition: all 0.25s ease;
+    cursor: default;
+}
+
+.Active {
+    box-shadow: inset 0px 0px 0px 4px rgb(109, 220, 233);
+}
+
+.Buttons-Group {
+    display: flex;
+    gap: 4px;
+    margin-top: 10px;
+    justify-content: center;
+}

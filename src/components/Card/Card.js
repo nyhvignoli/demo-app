@@ -13,7 +13,7 @@ const Card = (props) => {
             <img src="https://picsum.photos/100"/>
             <h2>{props.title}</h2>
             <div>{props.description}</div>
-            <div className='Buttons-Group'>
+            <div className='Buttons-group'>
                 <button disabled={counter <= 0} onClick={() => setCounter(counter - 1)}>-</button>
                 <span>{counter}</span>
                 <button  onClick={() => setCounter(counter + 1)}>+</button>

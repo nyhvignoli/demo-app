@@ -4,7 +4,7 @@ const SideNav = (props) => {
     const renderLinks = () => {
         return props.cards.map((card) => {
             return (
-                <a key={card.id} className={`${props.active === card.id ? "Link-Active" : null }`} href='#' onClick={() => props.onClick(card.id)}>{card.title}</a>
+                <a key={card.id} className={`${props.active === card.id ? "Link-active" : null }`} href='#' onClick={() => props.onClick(card.id)}>{card.title}</a>
             )
         })
     }
